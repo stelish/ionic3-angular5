@@ -1,0 +1,25 @@
+$padding: 10px 15px;
+
+
+.quantity-ticker {
+  display: inline-flex;
+
+  .quantity-ticker-btn {
+    padding: $padding;
+
+    ion-icon{
+      font-size: 2.2em;
+      color: $blue-grey;
+    }
+  }
+
+  .quantity-ticker-value{
+    font-size: 16px;
+    padding: 5px 15px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    width: 50px;
+    text-align: center;
+    margin: 10px 0;
+  }
+}

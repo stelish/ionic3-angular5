@@ -1,0 +1,28 @@
+$padding: 10px 15px;
+
+coffees {
+
+  .coffees-header {
+    width: 100%;
+    min-height: 60px;
+    background: #607D8B;
+    color:#fff;
+    padding: $padding;
+    position: relative;
+  }
+
+  .coffees-list {
+    position: relative;
+    background: #eee;
+    .coffees-list-ul {
+      position: relative;
+      padding: 15px 5px;
+      .coffees-list-li {
+        background: #fff;
+        border-bottom: solid 1px #ccc;
+        margin: 0 5px 5px;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,13 @@
+<div class="coffees">
+  <!-- <div class="coffees-header" (click)="toggleView=!toggleView">
+    <h4>Coffees</h4>
+  </div> -->
+  <div class="coffees-list">
+    <ul class="coffees-list-ul">
+      <li class="coffees-list-li" *ngFor="let coffee of coffeeList">
+        <stock-item [item]="coffee"></stock-item>
+      </li>
+    </ul>
+  </div>
+</div>
+

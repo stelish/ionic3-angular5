@@ -1,0 +1,38 @@
+.stock-item-wrapper{
+  position: relative;
+  min-height: 85px;
+  width: 100%;
+  padding: 15px 10px;
+
+  .stock-item {
+    display: inline-flex;
+    position:absolute;
+    left:0;
+    top:0;
+    padding: 15px 10px;
+
+    img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .stock-item-label{
+      padding: 0 15px;
+      h4, p {
+        margin: 0;
+        color: $blue-grey;
+      }
+    }
+  }
+  quantity-ticker{
+    position: absolute;
+    right: 10px;
+  }
+}
+
+.stock-item-config {
+  display:block;
+  width: 100%;
+  margin: 0 0 10px;
+}
+

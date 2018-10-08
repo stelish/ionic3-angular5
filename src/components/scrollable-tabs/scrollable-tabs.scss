@@ -1,0 +1,14 @@
+.scrollable-tabs {
+    min-width: 600px;
+    display: inline-flex;
+    height: auto;
+    overflow-x: scroll;
+    
+    &:after {
+        content: ' ';
+        display:block;
+    }
+    button {
+
+    }
+}

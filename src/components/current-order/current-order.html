@@ -1,0 +1,17 @@
+<div padding>
+  <h4>Current Order:</h4>
+
+  <!-- customer -->
+  <ion-item>
+    <ion-label>Customer</ion-label>
+
+    <ion-select [(ngModel)]="customer">
+      <ion-option *ngFor="let customer of customers" [value]="customer"></ion-option>
+    </ion-select>
+
+  </ion-item>
+
+  <previous-order></previous-order>
+</div>
+
+

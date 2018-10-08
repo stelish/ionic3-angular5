@@ -1,0 +1,22 @@
+<div class="stock-item-wrapper">
+
+  <div class="stock-item">
+      
+    <svg xmlns="http://www.w3.org/2000/svg" fill="#D291BC" width="48" height="48" viewBox="0 0 24 24"><path d="M22 2.427c-1.302 0-2.441-1.043-2.441-2.427h-15.149c0 1.382-1.105 2.427-2.41 2.427v1.573h20v-1.573zm-19 3.573l3.031 18h11.938l3.031-18h-18zm4.049 12l-1.01-6h11.923l-1.01 6h-9.903z"/></svg>
+    
+    <div class="stock-item-label">
+        <h4>{{item?.name}}</h4>
+        <p>{{item?.price || '$4.00'}}</p>
+    </div>
+
+  </div>
+
+  <quantity-ticker (changeEvent)="updateItem($event)"></quantity-ticker>
+
+</div>
+
+<div class="stock-item-config" *ngFor='let in of counter() ;let i = index'>
+
+  <coffee-config></coffee-config>
+
+</div>
